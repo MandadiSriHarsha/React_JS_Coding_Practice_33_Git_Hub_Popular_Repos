@@ -1,0 +1,55 @@
+.github-popular-repos-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 90vw;
+  margin: auto;
+}
+
+.main-heading {
+  font-family: 'Lobster';
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 50px;
+  }
+}
+
+.language-filter-items-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .language-filter-items-container {
+    width: 70%;
+    justify-content: space-around;
+  }
+}
+
+.repositories-bg-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1100px;
+}
+
+@media screen and (min-width: 576px) {
+  .repositories-bg-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
